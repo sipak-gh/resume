@@ -1,0 +1,62 @@
+name: Build resume
+
+# Rebuilds "Timothy Bangma.docx" and "Timothy Bangma.pdf" from README.md with
+# build.sh, and commits them if they changed. SOURCE_DATE_EPOCH is pinned to the
+# triggering commit so the outputs are reproducible and unchanged content
+# produces no commit.
+on:
+  push:
+    branches: [master]
+    paths:
+      - README.md
+      - build.sh
+      - fonts/**
+      - .github/workflows/build.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-resume
+  cancel-in-progress: true
+
+env:
+  PANDOC_VERSION: "3.13"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Install pandoc and WeasyPrint system libraries
+        run: |
+          set -euo pipefail
+          curl -sSL -o "$RUNNER_TEMP/pandoc.deb" \
+            "https://github.com/jgm/pandoc/releases/download/${PANDOC_VERSION}/pandoc-${PANDOC_VERSION}-1-amd64.deb"
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq "$RUNNER_TEMP/pandoc.deb" libpango-1.0-0 libpangoft2-1.0-0
+          pandoc --version | head -1
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Build
+        run: |
+          export SOURCE_DATE_EPOCH="$(git log -1 --format=%ct)"
+          ./build.sh
+
+      - name: Commit if changed
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- "Timothy Bangma.docx" "Timothy Bangma.pdf"; then
+            echo "Outputs are unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "Timothy Bangma.docx" "Timothy Bangma.pdf"
+          git commit -m "chore: rebuild resume ($(date -u +%Y-%m-%d))"
+          git push
