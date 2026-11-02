@@ -66,8 +66,8 @@ Backend software engineer with 9+ years of professional experience specialising 
 
 ## Notable Projects
 
-- **[sipak-gh.github.io](https://sipak-gh.github.io)** (JavaScript): My project portfolio, a dependency-free static site that renders each project's README live from GitHub. A GitHub Action refreshes the project metadata from the GitHub API.
-- **[courseware](https://sipak-gh.github.io/courseware/)** (JavaScript): An open library of 16 long-form courses spanning C, assembly, Zig, Go, React, Git and philosophy. I write them to deepen my own expertise, since teaching a subject end to end is the best test of understanding it, and share them freely with the community through a book-style reader rendered live from each course repo.
+- **[portfolio](https://sipak-gh.github.io)** (JavaScript): My project portfolio, a static site detailing my various side project on Github; some listed below.
+- **[courseware](https://sipak-gh.github.io/courseware/)** (Writing): An open library of long-form courses from C, assembly, Zig, Go, React, Git and philosophy. I build and follow them to deepen my own expertise, and share them online through a book-style reader site, for anyone to use.
 - **[zen](https://github.com/sipak-gh/zen)** (Zig): `ze`, a tiny modal editor following the influence of vi. Meant to get out of your way.
 - **[parc](https://github.com/sipak-gh/parc)** (Go): A privacy-focused public archival tool, allowing you to encrypt files and filenames with your ed25519 SSH key. Built on [age](https://github.com/FiloSottile/age).
 - **[vibabel](https://github.com/sipak-gh/vibabel)** (Rust): A fun terminal vi-based editor to let you modify the _nearly_ infinite pages of Borges' Library of Babel.
