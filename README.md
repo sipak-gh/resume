@@ -31,11 +31,11 @@ Backend software engineer with 10 years of experience designing, building, and o
 
 ### EA Maxis, Software Engineer III (Server)
 
-*Nov 2021 – Present*  
+*Nov 2021 – Dec 2026*  
 `Kotlin · Spring Boot · TypeScript · gRPC · Apache Beam · Cloud Spanner · Elasticsearch · Kubernetes · GCP`
 
 - One of three engineers on the zero-downtime migration of The Sims 4 Gallery, a legacy C++ user-generated content (UGC) service, to Kotlin/Spring Boot microservices on Kubernetes; contributed a large share of the implementation, eliminating multi-day maintenance windows, cutting deploys to under one hour, and preserving backward compatibility with PC and console clients (18k+ DAU)  
-- Partner with game client engineers to scope server-side specifications for Expansion Pack features; authored technical design documents for social and player-safety features (player profiles, friends, block lists, third-party content moderation) and implemented them against EA platform services  
+- Partnered with game client engineers to scope server-side specifications for Expansion Pack features; authored technical design documents for social and player-safety features (player profiles, friends, block lists, third-party content moderation) and implemented them against EA platform services  
 - Delivered privacy compliance (right-to-be-forgotten, subject-access requests) and centralised secrets management  
 - Contributed to launch production readiness (monitoring dashboards, runbooks, load testing) and reverse-engineered legacy C++ checksum and signing logic to keep the new service byte-compatible  
 - Designed and built a greenfield, minimal-dependency batch data pipeline in Kotlin for large-scale migrations across relational, object-storage, and search backends  
@@ -43,7 +43,7 @@ Backend software engineer with 10 years of experience designing, building, and o
 - Shipped server features for Expansion Packs and live events, including event and progression APIs, Gallery search filters, and scheduled content-import jobs using distributed locking and caching  
 - Primary bug fixer and on-call responder, debugging production incidents end to end across Kotlin services, legacy C++, and game client integrations  
 - Built agentic AI development workflows for LLM coding agents, with continuous build, test, lint, and codegen feedback loops and language server (LSP) integration for autonomous self-correction  
-- Presented tech talks on mocking EA platform services and idiomatic functional Kotlin; mentor a junior engineer and review code across teams
+- Presented tech talks on mocking EA platform services and idiomatic functional Kotlin; mentored a junior engineer and reviewed code across teams
 
 ### Arctic Wolf, Software Developer, Infrastructure (Member of Technical Staff)
 
