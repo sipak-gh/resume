@@ -29,15 +29,6 @@ Backend software engineer with 10 years of experience designing, building, and o
 
 ## Work Experience
 
-### Indie Game Development (Sipak Dev)
-
-*Dec 2026 – Present*  
-`Zig · raylib · 3D Rendering · Pixel Art · Game Design`
-
-- Founded a solo indie game studio, owning game design, engineering, and pixel art end to end
-- Building games in Zig with raylib, including custom 3D rendering
-- Developing in public and growing a community through Twitch, YouTube, and Instagram
-
 ### EA Maxis, Software Engineer III (Server)
 
 *Nov 2021 – Dec 2026*  
@@ -71,6 +62,19 @@ Built Java/Spring Boot REST microservices for global printing; later owned CI/CD
 *Jan 2016 – Apr 2018*
 
 Co-op turned full-time; built an automated Java and Oracle SQL sales reporting service for steel inventory.
+
+---
+
+## Personal Projects
+
+### Indie Game Development (Sipak Dev)
+
+*Dec 2026 – Present*  
+`Zig · raylib · 3D Rendering · Pixel Art · Game Design`
+
+- Founded a solo indie game studio, owning game design, engineering, and pixel art end to end
+- Building games in Zig with raylib, including custom 3D rendering
+- Developing in public and growing a community through Twitch, YouTube, and Instagram
 
 ---
 
