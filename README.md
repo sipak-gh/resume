@@ -15,19 +15,28 @@ Backend software engineer with 10 years of experience designing, building, and o
 ## Technical Skills
 
 **Languages:** Kotlin · Java · TypeScript · JavaScript · Python · Go (Golang) · SQL · Bash · C++ · C · Rust · Zig · Ruby  
-**Frameworks & APIs:** Spring Boot · Kotlin Coroutines · Node.js · React · React Native · REST · gRPC · Protocol Buffers · Apache Beam  
+**Frameworks & APIs:** Spring Boot · Kotlin Coroutines · raylib · Node.js · React · React Native · REST · gRPC · Protocol Buffers · Apache Beam  
 **Cloud & Infrastructure:** Google Cloud Platform (GCP: Dataflow, Cloud Spanner, Cloud Storage) · Amazon Web Services (AWS) · Kubernetes · Helm · Docker · Terraform · CloudFormation · Troposphere · HashiCorp Vault  
 **Databases:** PostgreSQL · Cloud Spanner · Oracle (PL/SQL) · MongoDB · Redis · Elasticsearch · Liquibase · Flyway  
 **CI/CD & Build:** GitLab CI · Jenkins · Gradle · Git  
 **Observability & Operations:** Datadog · Grafana · PagerDuty · Spring Boot Actuator · On-Call · Incident Response  
 **Testing:** Unit & Integration Testing · MockK · JaCoCo · Load Testing  
 **AI & Developer Tools:** GitHub Copilot · Claude Code · LLM Coding Agents · Jira · Linux · GNU Toolchain  
-**Core Competencies:** API Design · Data Pipelines · ETL · Real-Time Data Processing · Log Ingestion · DevOps · Infrastructure as Code (IaC) · Security Automation · Certificate & Key Rotation · Developer Tooling  
+**Core Competencies:** API Design · Data Pipelines · ETL · Real-Time Data Processing · Log Ingestion · DevOps · Infrastructure as Code (IaC) · Security Automation · Certificate & Key Rotation · Developer Tooling · Game Design · 3D Rendering · Pixel Art  
 **Practices:** Agile/Scrum · System Design · Microservices · Technical Design Docs · Code Review · Data Migration · Mentorship
 
 ---
 
 ## Work Experience
+
+### Indie Game Development (Sipak Dev)
+
+*Dec 2026 – Present*  
+`Zig · raylib · 3D Rendering · Pixel Art · Game Design`
+
+- Founded a solo indie game studio, owning game design, engineering, and pixel art end to end
+- Building games in Zig with raylib, including custom 3D rendering
+- Developing in public and growing a community through Twitch, YouTube, and Instagram
 
 ### EA Maxis, Software Engineer III (Server)
 
