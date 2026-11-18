@@ -47,24 +47,21 @@ Backend software engineer with 10 years of experience designing, building, and o
 
 ### Arctic Wolf, Software Developer, Infrastructure (Member of Technical Staff)
 
-*Nov 2020 – Oct 2021*  
-`Golang · Python · CloudFormation · Troposphere · AWS · Kubernetes`
+*Nov 2020 – Oct 2021*
 
-Built high-throughput data-processing services in Go for a security telemetry pipeline, plus Python developer tooling.
+Built high-throughput Go services on AWS/Kubernetes for a security telemetry pipeline, plus Python tooling.
 
 ### HP Inc, Software Developer → Lead DevOps Engineer
 
-*May 2018 – Oct 2020*  
-`Java · Spring Boot · Node.js · Redis · MongoDB · Docker · AWS · Terraform · Jenkins`
+*May 2018 – Oct 2020*
 
-Built REST microservices for a global on-demand printing platform; later owned CI/CD, Jenkins, and Terraform (IaC) on AWS.
+Built Java/Spring Boot REST microservices for global printing; later owned CI/CD, Jenkins, and Terraform (IaC) on AWS.
 
 ### ArcelorMittal Dofasco, Software Developer
 
-*Jan 2016 – Apr 2018*  
-`Java · Kotlin · Spring Boot · Node.js · PL/SQL · Oracle SQL`
+*Jan 2016 – Apr 2018*
 
-Co-op turned full-time; built an automated Oracle-backed sales reporting service for steel inventory.
+Co-op turned full-time; built an automated Java and Oracle SQL sales reporting service for steel inventory.
 
 ---
 
