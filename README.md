@@ -22,6 +22,7 @@ Backend software engineer with 10 years of experience designing, building, and o
 **Observability & Operations:** Datadog · Grafana · PagerDuty · Spring Boot Actuator · On-Call · Incident Response  
 **Testing:** Unit & Integration Testing · MockK · JaCoCo · Load Testing  
 **AI & Developer Tools:** GitHub Copilot · Claude Code · LLM Coding Agents · Jira · Linux · GNU Toolchain  
+**Core Competencies:** API Design · Data Pipelines · ETL · Real-Time Data Processing · Log Ingestion · DevOps · Infrastructure as Code (IaC) · Security Automation · Certificate & Key Rotation · Developer Tooling  
 **Practices:** Agile/Scrum · System Design · Microservices · Technical Design Docs · Code Review · Data Migration · Mentorship
 
 ---
