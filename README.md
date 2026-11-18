@@ -17,7 +17,7 @@ Backend software engineer with 10 years of experience designing, building, and o
 **Languages:** Kotlin · Java · TypeScript · JavaScript · Python · Go (Golang) · SQL · Bash · C++ · C · Rust · Zig · Ruby  
 **Frameworks & APIs:** Spring Boot · Kotlin Coroutines · Node.js · React · React Native · REST · gRPC · Protocol Buffers · Apache Beam  
 **Cloud & Infrastructure:** Google Cloud Platform (GCP: Dataflow, Cloud Spanner, Cloud Storage) · Amazon Web Services (AWS) · Kubernetes · Helm · Docker · Terraform · CloudFormation · Troposphere · HashiCorp Vault  
-**Databases & Streaming:** PostgreSQL · Cloud Spanner · Oracle (PL/SQL) · MongoDB · Redis · Elasticsearch · Apache Kafka · Liquibase · Flyway  
+**Databases:** PostgreSQL · Cloud Spanner · Oracle (PL/SQL) · MongoDB · Redis · Elasticsearch · Liquibase · Flyway  
 **CI/CD & Build:** GitLab CI · Jenkins · Gradle · Git  
 **Observability & Operations:** Datadog · Grafana · PagerDuty · Spring Boot Actuator · On-Call · Incident Response  
 **Testing:** Unit & Integration Testing · MockK · JaCoCo · Load Testing  
@@ -47,26 +47,23 @@ Backend software engineer with 10 years of experience designing, building, and o
 ### Arctic Wolf, Software Developer, Infrastructure (Member of Technical Staff)
 
 *Nov 2020 – Oct 2021*  
-`Golang · Python · Apache Kafka · CloudFormation · Troposphere · AWS · Kubernetes`
+`Golang · Python · CloudFormation · Troposphere · AWS · Kubernetes`
 
-- Built high-throughput, real-time streaming (ETL) applications on Apache Kafka for Arctic Wolf's security telemetry pipeline, ingesting and normalising system metrics, network logs, and monitoring data (Grafana, Datadog) at scale  
-- Developed internal Python tooling and build utilities to improve developer productivity and streamline the team's development workflow
+Built high-throughput data-processing services in Go for a security telemetry pipeline, plus Python developer tooling.
 
-### HP Inc, Software Developer
+### HP Inc, Software Developer → Lead DevOps Engineer
 
 *May 2018 – Oct 2020*  
 `Java · Spring Boot · Node.js · Redis · MongoDB · Docker · AWS · Terraform · Jenkins`
 
-- Developed a cloud-native microservice platform (\~10 services, team of 6–8) exposing REST APIs for on-demand printing to customers across North America and China  
-- Progressed to **Lead DevOps Engineer**, taking full ownership of CI/CD pipeline stability, Jenkins infrastructure, Terraform infrastructure-as-code (IaC) environments in AWS, and security automation including certificate and key rotation
+Built REST microservices for a global on-demand printing platform; later owned CI/CD, Jenkins, and Terraform (IaC) on AWS.
 
 ### ArcelorMittal Dofasco, Software Developer
 
 *Jan 2016 – Apr 2018*  
 `Java · Kotlin · Spring Boot · Node.js · PL/SQL · Oracle SQL`
 
-- Built an automated sales reporting service that extracted and formatted steel inventory data from Oracle databases into actionable reports, accelerating the sale of time-sensitive devalued inventory  
-- Joined as a co-op student and was offered a full-time position upon graduation
+Co-op turned full-time; built an automated Oracle-backed sales reporting service for steel inventory.
 
 ---
 
