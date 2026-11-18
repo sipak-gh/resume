@@ -2,13 +2,13 @@
 
 **Backend Software Engineer** · Distributed Systems · Kotlin · TypeScript · Cloud-Native Microservices  
 Waterloo Region, Ontario, Canada · 289 527 3228 · [bangma@sent.com](mailto:bangma@sent.com) · [LinkedIn@timothybangma](https://www.linkedin.com/in/timothybangma)  
-GitHub (LLM Assisted): [github.com/sipak-gh](https://github.com/sipak-gh) · SourceHut (Human Only): [git.sr.ht/~sipak](https://git.sr.ht/~sipak)
+GitHub (LLM Assisted): [github.com/sipak-gh](https://github.com/sipak-gh) · SourceHut (Human Only): [git.sr.ht/~sipak](https://git.sr.ht/~sipak) · Portfolio: [sipak-gh.github.io](https://sipak-gh.github.io)
 
 ---
 
 ## Summary
 
-Backend software engineer with 10 years of professional experience designing, building, and operating cloud-native distributed systems and microservices. For the past five years I have built live, player-facing backend services for The Sims 4 at EA Maxis in Kotlin, Spring Boot, and TypeScript, serving PC and console players. Track record across zero-downtime legacy migrations, large-scale production data migrations, API design, and observability and production readiness. Experienced with CI/CD, infrastructure as code, Kubernetes, and both GCP and AWS. A go-to technical contact for peers; mentors junior engineers, leads cross-team knowledge sharing, and builds AI-assisted, agentic development workflows.
+Backend software engineer with 10 years of experience designing, building, and operating cloud-native distributed systems and microservices, including five years on live, player-facing services for The Sims 4 at EA Maxis (Kotlin, Spring Boot, TypeScript). Track record in zero-downtime legacy migrations, large-scale production data migrations, API design, observability, CI/CD, and infrastructure as code on Kubernetes, GCP, and AWS. Go-to technical contact and mentor who builds AI-assisted, agentic development workflows.
 
 ---
 
@@ -22,7 +22,7 @@ Backend software engineer with 10 years of professional experience designing, bu
 **Observability & Operations:** Datadog · Grafana · PagerDuty · Spring Boot Actuator · On-Call · Incident Response  
 **Testing:** Unit & Integration Testing · MockK · JaCoCo · Load Testing  
 **AI & Developer Tools:** GitHub Copilot · Claude Code · LLM Coding Agents · Jira · Linux · GNU Toolchain  
-**Practices:** Agile/Scrum · System Design · Microservices Architecture · Technical Design Documents · Code Review · Data Migration · Production Readiness · Mentorship
+**Practices:** Agile/Scrum · System Design · Microservices · Technical Design Docs · Code Review · Data Migration · Mentorship
 
 ---
 
@@ -33,23 +33,23 @@ Backend software engineer with 10 years of professional experience designing, bu
 *Nov 2021 – Present*  
 `Kotlin · Spring Boot · TypeScript · gRPC · Apache Beam · Cloud Spanner · Elasticsearch · Kubernetes · GCP`
 
-- One of three engineers on the zero-downtime migration of The Sims 4 Gallery, a legacy C++ user-generated content (UGC) hosting service, to a cloud-native Kotlin/Spring Boot microservices architecture on Kubernetes; contributed a large share of the implementation, eliminating multi-day maintenance windows, cutting deploy time to under one hour, and preserving full backward compatibility with PC and console clients (18k+ DAU)  
-- Partner with game client engineers to scope and design server-side specifications for Expansion Pack features, balancing response times, caching strategy, and external service dependencies; authored technical design documents for social and player-safety features (player profiles, friends and following, block lists, content reporting via a third-party moderation vendor) and implemented them against EA platform services  
-- Delivered privacy and compliance features, including right-to-be-forgotten and subject-access-request handling, and migrated service secrets into a centralised secrets manager  
-- Contributed to production readiness for launch: built monitoring dashboards, wrote deployment and operations runbooks, and improved load testing; reverse-engineered legacy C++ checksum and signing logic to keep the new service byte-compatible with existing clients  
-- Designed and built a greenfield batch data-processing pipeline in Kotlin for large-scale migrations across relational, object-storage, and search backends, replacing a heavyweight framework-based tool with a minimal-dependency design  
-- Executed large-scale production data and schema migrations with no customer-facing latency impact: rehearsed in non-production environments, monitored metrics and scaled services in real time, and coordinated release windows with QA and partner teams  
+- One of three engineers on the zero-downtime migration of The Sims 4 Gallery, a legacy C++ user-generated content (UGC) service, to Kotlin/Spring Boot microservices on Kubernetes; contributed a large share of the implementation, eliminating multi-day maintenance windows, cutting deploys to under one hour, and preserving backward compatibility with PC and console clients (18k+ DAU)  
+- Partner with game client engineers to scope server-side specifications for Expansion Pack features; authored technical design documents for social and player-safety features (player profiles, friends, block lists, third-party content moderation) and implemented them against EA platform services  
+- Delivered privacy compliance (right-to-be-forgotten, subject-access requests) and centralised secrets management  
+- Contributed to launch production readiness (monitoring dashboards, runbooks, load testing) and reverse-engineered legacy C++ checksum and signing logic to keep the new service byte-compatible  
+- Designed and built a greenfield, minimal-dependency batch data pipeline in Kotlin for large-scale migrations across relational, object-storage, and search backends  
+- Executed large-scale production data and schema migrations with no customer-facing latency impact by rehearsing in non-production, scaling services live, and coordinating with QA and partner teams  
 - Shipped server features for Expansion Packs and live events, including event and progression APIs, Gallery search filters, and scheduled content-import jobs using distributed locking and caching  
-- Serve as the team's primary bug fixer and participate in the on-call rotation, responding to production incidents and debugging issues end to end across Kotlin services, the legacy C++ codebase, and game client integrations  
-- Built agentic AI development workflows using LLM coding agents, with continuous build, test, lint, and code-generation feedback loops and language server (LSP) integration so agents iterate and self-correct with minimal oversight  
-- Presented internal tech talks on mocking EA platform services for testing and on idiomatic functional Kotlin for data pipelines; mentor a junior engineer on planning and delivery, review code across teams, and act as a go-to technical contact for teammates
+- Primary bug fixer and on-call responder, debugging production incidents end to end across Kotlin services, legacy C++, and game client integrations  
+- Built agentic AI development workflows for LLM coding agents, with continuous build, test, lint, and codegen feedback loops and language server (LSP) integration for autonomous self-correction  
+- Presented tech talks on mocking EA platform services and idiomatic functional Kotlin; mentor a junior engineer and review code across teams
 
 ### Arctic Wolf, Software Developer, Infrastructure (Member of Technical Staff)
 
 *Nov 2020 – Oct 2021*  
 `Golang · Python · Apache Kafka · CloudFormation · Troposphere · AWS · Kubernetes`
 
-- Built high-throughput, real-time streaming data processing (ETL) applications on Apache Kafka within Arctic Wolf's security telemetry pipeline, ingesting and normalising security data from diverse sources, including system metrics, network logs, disk usage, and monitoring platforms (Grafana, Datadog), at scale for downstream security services  
+- Built high-throughput, real-time streaming (ETL) applications on Apache Kafka for Arctic Wolf's security telemetry pipeline, ingesting and normalising system metrics, network logs, and monitoring data (Grafana, Datadog) at scale  
 - Developed internal Python tooling and build utilities to improve developer productivity and streamline the team's development workflow
 
 ### HP Inc, Software Developer
@@ -72,12 +72,11 @@ Backend software engineer with 10 years of professional experience designing, bu
 
 ## Notable Projects
 
-- **[portfolio](https://sipak-gh.github.io)** (JavaScript): My project portfolio, a static site detailing my various side projects on GitHub; some listed below.
-- **[courseware](https://sipak-gh.github.io/courseware/)** (Writing): An open library of long-form courses covering C, assembly, Zig, Go, React, Git and philosophy. I build and follow them to deepen my own expertise, and share them online through a book-style reader site, for anyone to use.
+- **[courseware](https://sipak-gh.github.io/courseware/)** (Writing): An open library of long-form courses on C, assembly, Zig, Go, React, Git, and philosophy, published as a book-style reader site.
 - **[zen](https://github.com/sipak-gh/zen)** (Zig): `ze`, a tiny modal editor following the influence of vi. Meant to get out of your way.
-- **[parc](https://github.com/sipak-gh/parc)** (Go): A privacy-focused public archival tool, allowing you to encrypt files and filenames with your ed25519 SSH key. Built on [age](https://github.com/FiloSottile/age).
-- **[vibabel](https://github.com/sipak-gh/vibabel)** (Rust): A fun terminal vi-based editor to let you modify the _nearly_ infinite pages of Borges' Library of Babel.
-- **[esp32-firmware](https://github.com/sipak-gh/esp32-firmware)** (Xtensa Assembly): from-scratch course on bare-metal ESP32 firmware, including a 208-byte Xtensa assembly "Hello, World!" and a custom firmware-image packer verified against Espressif's tool.
+- **[parc](https://github.com/sipak-gh/parc)** (Go): A privacy-focused archival tool that encrypts files and filenames with your ed25519 SSH key, built on [age](https://github.com/FiloSottile/age).
+- **[vibabel](https://github.com/sipak-gh/vibabel)** (Rust): A terminal vi-style editor for the _nearly_ infinite pages of Borges' Library of Babel.
+- **[esp32-firmware](https://github.com/sipak-gh/esp32-firmware)** (Xtensa Assembly): A from-scratch bare-metal ESP32 firmware course, including a 208-byte "Hello, World!" and a custom firmware-image packer.
 
 ---
 
@@ -90,4 +89,4 @@ Backend software engineer with 10 years of professional experience designing, bu
 
 ## Interests
 
-Guitar · Amateur powerlifting · Low-level and embedded programming in Rust and Zig, including building custom firmware for ESP32 microcontrollers  
+Guitar · Amateur powerlifting · Embedded programming in Rust and Zig (custom ESP32 firmware)  
